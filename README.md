@@ -17,9 +17,9 @@
 
 ## 执行流程
 ## 数据库连接需要调整 位置在 dbs/dbTable.go 文件 修改数据库连接信息
-
-使用 go mod tidy 初始化项目依赖
-使用 go run main.go 启动项目
+- 使用 go mod tidy 初始化项目依赖
+- 使用 go run main.go 启动项目
+- postman文件  博客系统.postman_collection.json  在项目根目录下有postman测试接口文件
 - 根路径： localhost:8080
 生成相关表结构：
 - 请求方式：GET
